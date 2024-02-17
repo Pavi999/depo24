@@ -1,0 +1,54 @@
+.DashBoaredMainContainer {
+    width: 1440px;
+    height: 1024px;
+    background: #f9faff;
+    display: flex;
+    flex-direction: row;
+  }
+  .LeftVerticalDiv {
+    display: flex;
+    width: 72px;
+    height: 1024px;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background: #fff;
+    box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.05);
+  }
+  .RightDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .RightHeaderDiv {
+    display: flex;
+    width: 1294px;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  .RightContentDiv {
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 32px;
+  }
+  .RightContentLeftDiv {
+    display: flex;
+    width: 385px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+  }
+  .RightContentRightDiv {
+    display: flex;
+    width: 883px;
+    padding: 8px 16px 0px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 16px;
+    background: #fff;
+  }
+  
